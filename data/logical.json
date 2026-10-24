@@ -1,0 +1,29 @@
+{
+  "logical_operators": {
+
+    "AND": [
+      "and",
+      "also",
+      "along with",
+      "as well as",
+      "together with",
+      "both"
+    ],
+
+    "OR": [
+      "or",
+      "either",
+      "any",
+      "one of"
+    ],
+
+    "NOT": [
+      "not",
+      "except",
+      "exclude",
+      "excluding",
+      "without"
+    ]
+
+  }
+}

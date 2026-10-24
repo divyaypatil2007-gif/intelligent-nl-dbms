@@ -1,0 +1,90 @@
+{
+  "tables": {
+
+    "products": [
+      "product",
+      "products",
+      "item",
+      "items",
+      "goods",
+      "material",
+      "merchandise"
+    ],
+
+    "category": [
+      "category",
+      "categories",
+      "type",
+      "types",
+      "group",
+      "classification"
+    ],
+
+    "customer": [
+      "customer",
+      "customers",
+      "buyer",
+      "buyers",
+      "consumer",
+      "client",
+      "end user"
+    ],
+
+    "customer_order": [
+      "customer order",
+      "customer orders",
+      "order",
+      "orders",
+      "sales order",
+      "purchase made",
+      "purchase",
+      "purchases",
+      "spending",
+      "spendings"
+    ],
+
+    "customer_order_details": [
+      "order details",
+      "order information",
+      "order items",
+      "ordered products",
+      "customer order details"
+    ],
+
+    "supplier": [
+      "supplier",
+      "suppliers",
+      "vendor",
+      "vendors",
+      "seller",
+      "provider"
+    ],
+
+    "supplier_order": [
+      "supplier order",
+      "supplier orders",
+      "purchase order",
+      "purchase orders",
+      "stock order"
+    ],
+
+    "inventory": [
+      "inventory",
+      "stock",
+      "available stock",
+      "available goods",
+      "stock details",
+      "inventory details"
+    ],
+
+    "warehouse": [
+      "warehouse",
+      "warehouses",
+      "store",
+      "storage",
+      "godown",
+      "storage location"
+    ]
+
+  }
+}

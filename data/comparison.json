@@ -1,0 +1,73 @@
+{
+  "comparison_operators": {
+    "=": [
+      "equal",
+      "equals",
+      "equal_to",
+      "same",
+      "same_as",
+      "is",
+      "in",
+      "at"
+    ],
+    ">": [
+      "greater",
+      "greater_than",
+      "more",
+      "more_than",
+      "above",
+      "over",
+      "higher",
+      "higher_than"
+    ],
+    "<": [
+      "less",
+      "less_than",
+      "below",
+      "under",
+      "lower",
+      "lower_than"
+    ],
+    ">=": [
+      "greater_than_equal",
+      "greater_than_or_equal",
+      "at_least",
+      "not_less_than"
+    ],
+    "<=": [
+      "less_than_equal",
+      "less_than_or_equal",
+      "at_most",
+      "not_greater_than"
+    ],
+    "!=": [
+      "not_equal",
+      "not_equals",
+      "different",
+      "different_from",
+      "except"
+    ],
+    "BETWEEN": [
+      "between",
+      "range",
+      "range_of"
+    ],
+    "LIKE": [
+      "like",
+      "contains",
+      "containing"
+    ],
+    "STARTS_WITH": [
+      "starts_with",
+      "starting_with",
+      "starts",
+      "starting"
+    ],
+    "ENDS_WITH": [
+      "ends_with",
+      "ending_with",
+      "ends",
+      "ending"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "operations": {
+
+    "SELECT": [
+      "show",
+      "display",
+      "list",
+      "fetch",
+      "find",
+      "give",
+      "get",
+      "retrieve",
+      "view"
+    ],
+
+    "COUNT": [
+      "count",
+      "how_many",
+      "number_of",
+      "total_number"
+    ],
+
+    "SUM": [
+      "sum",
+      "total",
+      "add"
+    ],
+
+    "AVG": [
+      "average",
+      "avg",
+      "mean"
+    ],
+
+    "MAX": [
+      "maximum",
+      "max",
+      "highest",
+      "largest",
+      "greatest"
+    ],
+
+    "MIN": [
+      "minimum",
+      "min",
+      "lowest",
+      "smallest",
+      "least"
+    ],
+
+    "GROUP_BY": [
+      "group_by",
+      "grouped_by"
+    ]
+  }
+}

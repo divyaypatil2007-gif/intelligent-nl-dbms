@@ -1,0 +1,52 @@
+{
+  "aggregate_functions": {
+
+    "COUNT": [
+      "count",
+      "how_many",
+      "how many",
+      "number_of",
+      "total_number_of",
+      "count of",
+      "how much"
+    ],
+
+    "SUM": [
+      "sum",
+      "total",
+      "total amount",
+      "overall total",
+      "combined total",
+      "add",
+      "sum of"
+    ],
+
+    "AVG": [
+      "average",
+      "avg",
+      "mean",
+      "average value",
+      "average of"
+    ],
+
+    "MAX": [
+      "maximum",
+      "max",
+      "high",
+      "highest",
+      "maximum value",
+      "most expensive"
+    ],
+
+    "MIN": [
+      "minimum",
+      "min",
+      "low",
+      "lowest",
+      "minimum value",
+      "cheap",
+      "bottom"
+    ]
+
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "values": {
+
+    "payment_method": {
+      "Cash": [
+        "cash",
+        "cash payment"
+      ],
+      "UPI": [
+        "upi",
+        "google pay",
+        "gpay",
+        "phonepe",
+        "paytm",
+        "bhim"
+      ],
+      "Card": [
+        "card",
+        "credit card",
+        "debit card"
+      ],
+      "Net Banking": [
+        "net banking",
+        "internet banking",
+        "online banking"
+      ]
+    },
+
+    "order_status": {
+      "Pending": [
+        "pending",
+        "waiting"
+      ],
+      "Packed": [
+        "packed",
+        "packing completed"
+      ],
+      "Shipped": [
+        "shipped",
+        "dispatched",
+        "sent"
+      ],
+      "Delivered": [
+        "delivered",
+        "completed",
+        "received"
+      ],
+      "Cancelled": [
+        "cancelled",
+        "canceled",
+        "rejected"
+      ]
+    },
+
+    "availability": {
+      "1": [
+        "available",
+        "in stock",
+        "yes",
+        "true"
+      ],
+      "0": [
+        "not available",
+        "out of stock",
+        "unavailable",
+        "no",
+        "false"
+      ]
+    }
+  }
+}

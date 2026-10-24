@@ -1,0 +1,124 @@
+{
+  "joins": [
+
+    {
+      "left_table": "products",
+      "left_column": "Category_ID",
+      "right_table": "category",
+      "right_column": "Category_ID",
+      "relationship": "belongs_to",
+      "keywords": [
+        "category",
+        "product category",
+        "belongs to category",
+        "category of product"
+      ]
+    },
+
+    {
+      "left_table": "customer_order",
+      "left_column": "Customer_ID",
+      "right_table": "customer",
+      "right_column": "Customer_ID",
+      "relationship": "placed_by",
+      "keywords": [
+        "customer",
+        "ordered by",
+        "placed by",
+        "customer order"
+      ]
+    },
+
+    {
+      "left_table": "customer_order_details",
+      "left_column": "Order_ID",
+      "right_table": "customer_order",
+      "right_column": "Order_ID",
+      "relationship": "contains",
+      "keywords": [
+        "order details",
+        "order items",
+        "items in order"
+      ]
+    },
+
+    {
+      "left_table": "customer_order_details",
+      "left_column": "Product_ID",
+      "right_table": "products",
+      "right_column": "Product_ID",
+      "relationship": "ordered_product",
+      "keywords": [
+        "ordered product",
+        "product ordered",
+        "items purchased"
+      ]
+    },
+
+    {
+      "left_table": "supplier_order",
+      "left_column": "Supplier_ID",
+      "right_table": "supplier",
+      "right_column": "Supplier_ID",
+      "relationship": "supplied_by",
+      "keywords": [
+        "supplier",
+        "vendor",
+        "supplied by"
+      ]
+    },
+
+    {
+      "left_table": "supplier_order",
+      "left_column": "Product_ID",
+      "right_table": "products",
+      "right_column": "Product_ID",
+      "relationship": "supplies_product",
+      "keywords": [
+        "supplier of product",
+        "product supplier",
+        "supplies"
+      ]
+    },
+
+    {
+      "left_table": "supplier_order",
+      "left_column": "Warehouse_ID",
+      "right_table": "warehouse",
+      "right_column": "Warehouse_ID",
+      "relationship": "delivered_to",
+      "keywords": [
+        "warehouse",
+        "delivery warehouse",
+        "stored in warehouse"
+      ]
+    },
+
+    {
+      "left_table": "inventory",
+      "left_column": "Product_ID",
+      "right_table": "products",
+      "right_column": "Product_ID",
+      "relationship": "inventory_product",
+      "keywords": [
+        "inventory product",
+        "stock product",
+        "stored product"
+      ]
+    },
+
+    {
+      "left_table": "inventory",
+      "left_column": "Warehouse_ID",
+      "right_table": "warehouse",
+      "right_column": "Warehouse_ID",
+      "relationship": "inventory_warehouse",
+      "keywords": [
+        "warehouse inventory",
+        "stock location",
+        "stored at"
+      ]
+    }
+
+  ]
+}

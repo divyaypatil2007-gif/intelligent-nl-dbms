@@ -1,0 +1,329 @@
+{
+  "columns": {
+    "products": {
+      "Product_ID": [
+        "product id",
+        "item id",
+        "product number"
+      ],
+      "Product_Name": [
+        "product",
+        "product name",
+        "item",
+        "item name",
+        "goods",
+        "goods name"
+      ],
+      "description": [
+        "description",
+        "details",
+        "information",
+        "specification"
+      ],
+      "Cost_Price": [
+        "cost price",
+        "buying price",
+        "purchase price"
+      ],
+      "Selling_Price": [
+        "price",
+        "selling price",
+        "sale price",
+        "mrp",
+        "cost",
+        "costing",
+        "priced"
+      ],
+      "reorder_level": [
+        "reorder level",
+        "minimum stock",
+        "stock limit"
+      ],
+      "Unit": [
+        "unit",
+        "measurement unit"
+      ],
+      "weight": [
+        "weight",
+        "product weight"
+      ],
+      "Warranty_Months": [
+        "warranty",
+        "warranty months",
+        "guarantee period"
+      ],
+      "Manufacturing_Year": [
+        "manufacturing year",
+        "manufactured year",
+        "year"
+      ],
+      "Is_Available": [
+        "available",
+        "availability",
+        "in stock"
+      ],
+      "Category_ID": [
+        "category id",
+        "category",
+        "category_id",
+        "product category"
+      ]
+    },
+    "customer": {
+      "Customer_ID": [
+        "customer id"
+      ],
+      "Customer_Name": [
+        "customer",
+        "customer name",
+        "buyer",
+        "buyer name",
+        "client",
+        "consumer"
+      ],
+      "phone": [
+        "phone",
+        "phone number",
+        "mobile",
+        "contact number"
+      ],
+      "Email": [
+        "email",
+        "email address",
+        "mail"
+      ],
+      "address": [
+        "address",
+        "residential address",
+        "location",
+        "city",
+        "located",
+        "located in",
+        "living in"
+      ]
+    },
+    "customer_order": {
+      "Order_ID": [
+        "order id",
+        "order number",
+        "order"
+      ],
+      "Customer_ID": [
+        "customer id",
+        "customer",
+        "customer_id",
+        "buyer"
+      ],
+      "Order_Date": [
+        "order date",
+        "purchase date",
+        "ordering date"
+      ],
+      "Total_Amount": [
+        "total",
+        "total amount",
+        "bill amount",
+        "amount",
+        "spending",
+        "spent",
+        "spending amount",
+        "expenditure",
+        "revenue",
+        "sales"
+      ],
+      "payment_method": [
+        "payment",
+        "payment method",
+        "payment mode",
+        "upi",
+        "card",
+        "cash",
+        "cod",
+        "net banking"
+      ],
+      "Order_Status": [
+        "order status",
+        "status",
+        "delivery status"
+      ]
+    },
+    "customer_order_details": {
+      "Order_detail_id": [
+        "order detail id",
+        "detail id"
+      ],
+      "Order_ID": [
+        "order id"
+      ],
+      "Product_ID": [
+        "product id"
+      ],
+      "Quantity": [
+        "quantity",
+        "qty",
+        "stock quantity"
+      ],
+      "Selling_Price": [
+        "selling price",
+        "price",
+        "unit price"
+      ],
+      "Subtotal": [
+        "subtotal",
+        "sub total",
+        "item total"
+      ]
+    },
+    "supplier": {
+      "Supplier_ID": [
+        "supplier id",
+        "vendor id"
+      ],
+      "Supplier_Name": [
+        "supplier",
+        "supplier name",
+        "vendor",
+        "vendor name",
+        "company"
+      ],
+      "phone": [
+        "phone",
+        "phone number"
+      ],
+      "Email": [
+        "email",
+        "email address"
+      ],
+      "address": [
+        "address",
+        "supplier address",
+        "location",
+        "city",
+        "located",
+        "located in",
+        "based in"
+      ],
+      "GST_NO": [
+        "gst",
+        "gst number",
+        "gst no"
+      ],
+      "Contact_Person": [
+        "contact person",
+        "contact",
+        "representative"
+      ]
+    },
+    "supplier_order": {
+      "Supplier_order_id": [
+        "supplier order id",
+        "purchase order id"
+      ],
+      "Supplier_ID": [
+        "supplier id",
+        "supplier",
+        "supplier_id",
+        "vendor"
+      ],
+      "Product_ID": [
+        "product id",
+        "product",
+        "product_id",
+        "item"
+      ],
+      "Warehouse_ID": [
+        "warehouse id",
+        "warehouse",
+        "warehouse_id"
+      ],
+      "Purchase_Price": [
+        "purchase price",
+        "buying price",
+        "supplier price"
+      ],
+      "Quantity": [
+        "quantity",
+        "qty"
+      ],
+      "Order_Date": [
+        "order date",
+        "supplier order date",
+        "purchase date"
+      ],
+      "Delivery_Time": [
+        "delivery time",
+        "delivery",
+        "time"
+      ]
+    },
+    "warehouse": {
+      "Warehouse_ID": [
+        "warehouse id",
+        "warehouse_id"
+      ],
+      "Warehouse_Name": [
+        "warehouse",
+        "warehouse name",
+        "storage name"
+      ],
+      "Location": [
+        "location",
+        "warehouse location",
+        "city",
+        "area",
+        "region",
+        "zone",
+        "located",
+        "located in",
+        "locate",
+        "place"
+      ],
+      "Manager": [
+        "manager",
+        "warehouse manager",
+        "supervisor"
+      ],
+      "Capacity": [
+        "capacity",
+        "warehouse capacity"
+      ]
+    },
+    "inventory": {
+      "Product_ID": [
+        "product id",
+        "product",
+        "product_id",
+        "item"
+      ],
+      "Warehouse_ID": [
+        "warehouse id",
+        "warehouse",
+        "warehouse_id"
+      ],
+      "Quantity": [
+        "quantity",
+        "qty",
+        "stock quantity"
+      ]
+    },
+    "category": {
+      "Category_ID": [
+        "category id"
+      ],
+      "Category_Name": [
+        "category",
+        "category name",
+        "type",
+        "classification"
+      ],
+      "description": [
+        "description",
+        "category details"
+      ],
+      "created_on": [
+        "created on",
+        "creation date"
+      ]
+    }
+  }
+}

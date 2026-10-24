@@ -1,0 +1,35 @@
+{
+  "sorting": {
+
+    "ASC": [
+      "ascending",
+      "ascending_order",
+      "ascend",
+      "asc",
+      "lowest_first",
+      "smallest_first",
+      "a_to_z",
+      "oldest_first"
+    ],
+
+    "DESC": [
+      "descending",
+      "descending_order",
+      "descend",
+      "desc",
+      "highest_first",
+      "largest_first",
+      "z_to_a",
+      "newest_first"
+    ],
+
+    "ORDER_BY": [
+      "order_by",
+      "sort_by",
+      "arrange_by",
+      "sort",
+      "sorted"
+    ]
+
+  }
+}
